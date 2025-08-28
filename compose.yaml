@@ -10,6 +10,7 @@ services:
       KC_BOOTSTRAP_ADMIN_USERNAME: admin
       KC_BOOTSTRAP_ADMIN_PASSWORD: ${KC_BOOTSTRAP_ADMIN_PASSWORD}
       KC_HOSTNAME: ${KC_HOSTNAME}
+      KC_PROXY: edge
     ports:
       - "127.0.0.1:8080:8080"
     depends_on:
